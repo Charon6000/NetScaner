@@ -17,9 +17,10 @@ startGUI()
     # echo "Wybrano: $odp"
 
     echo "Started gui";
-    # scanDevices "192.168.56.0/24";
-    scanOpenPorts "192.168.56.0/24";
-    generateRaport;
+    # WYNIK=$(scanDevices "192.168.56.0/24");
+    # WYNIK=$(scanOpenPorts "192.168.56.0/24");
+    WYNIK="placeholder";
+    RAPORT=$(generateRaport "$WYNIK");
 }
 
 # Obsluga getopts

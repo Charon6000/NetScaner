@@ -18,4 +18,5 @@ scanOpenPorts()
 generateRaport()
 {
     echo "Generowanie Raportu";
+    echo -e "$(date +%Y%m%d_%H%M%S)\n$1" >> raports.txt;
 }
