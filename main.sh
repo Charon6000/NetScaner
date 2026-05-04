@@ -25,9 +25,9 @@ startGUI()
 # Obsluga getopts
 while getopts "hvr" opt; do
     case $opt in
-    h) echo "help"; exit 0 ;;
-    v) echo "NetScanner: $VERSION"; exit 0 ;;
-    r) startGUI; exit 0 ;;
-    *) echo "help"; exit 0 ;;
+    h) showHelp;;
+    v) echo "NetScanner: $VERSION";;
+    r) startGUI;;
+    *) echo "Błędna opcja"; showHelp;;
     esac
 done
