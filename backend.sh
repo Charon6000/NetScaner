@@ -3,7 +3,7 @@
 # Skanowanie sieci lokalnej w celu wykrycia aktywnych urządzeń.
 scanDevices()
 {
-    echo "Szukanie Urzadzen"    
+    echo "Szukanie Urzadzen"
 }
 
 # Wykrywanie otwartych portów na urządzeniach w sieci.
