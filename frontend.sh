@@ -30,11 +30,13 @@ getIdMenu()
     zenity --entry --title "Podaj IP/Zakres" --height 500 --width 400 --text "Podaj ip wewnetrzne (np; 192.168.1.1) do przeskanowania lub zakres (np; 192.168.1.0/24)";
 }
 
+#Pokazuje wyniki skanowania
 showResults()
 {
-    echo "$1" | zenity --text-info --height 500 --width 400 --title "Wyniki wyszukiwania";
+    echo "$1" | zenity --text-info --height 500 --width 400 --title "Wyniki skanowania";
 }
 
+#Pokazuje postęp pracy w tle
 showProgress()
 {
     zenity --progress --title "Skanowanie w tle" --text "Poczekaj aż skanowanie się zakończy" --pulsate --auto-close --no-cancel;

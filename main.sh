@@ -9,6 +9,7 @@ source ./frontend.sh
 #Wersja programu
 VERSION="1.0.1"
 
+#Zarządzanie wyborami użytkownika
 manageInputs()
 {
     case $1 in
