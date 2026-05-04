@@ -11,6 +11,7 @@ scanDevices()
 scanOpenPorts()
 {
     echo "Szukanie Portow";
+    nmap -T4 -F "$1" | grep " open ";
 }
 
 # Generowanie Raportu

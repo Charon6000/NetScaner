@@ -17,8 +17,8 @@ startGUI()
     # echo "Wybrano: $odp"
 
     echo "Started gui";
-    scanDevices "192.168.56.0/24";
-    scanOpenPorts;
+    # scanDevices "192.168.56.0/24";
+    scanOpenPorts "192.168.56.0/24";
     generateRaport;
 }
 
