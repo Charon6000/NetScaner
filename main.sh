@@ -7,7 +7,7 @@ source ./backend.sh
 source ./frontend.sh
 
 #Wersja programu
-VERSION="1.0.0"
+VERSION="1.0.1"
 
 manageInputs()
 {
