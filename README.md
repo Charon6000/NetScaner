@@ -4,7 +4,6 @@
 ![Bash](https://img.shields.io/badge/Language-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Tool](https://img.shields.io/badge/Tool-Nmap-00599C?style=for-the-badge&logo=nmap&logoColor=white)
 ![UI](https://img.shields.io/badge/Interface-Zenity-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 **NetScanner** to lekkie i potężne narzędzie oparte na skryptach Bash, służące do szybkiego audytu sieci lokalnej. Dzięki wykorzystaniu silnika `nmap` oraz interfejsu `zenity`, aplikacja oferuje zarówno szybkość działania linii komend, jak i wygodę okienkowego interfejsu graficznego (GUI).
 
